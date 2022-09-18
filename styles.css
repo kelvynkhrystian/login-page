@@ -115,3 +115,25 @@ button:hover {
   transform: scaleX(-1);
   width: 25px;
 } */
+
+/* Responsividade Mobile */
+
+@media (max-width: 482px){
+
+  main {
+    background-image: url('/img/login.gif');
+    background-size: auto;
+    height: 90%;
+    width: 90%;
+  }
+
+  section {
+    display: none;
+  }
+
+  form {
+    opacity: 0.9;
+    width: 70%;
+  }
+}
+
