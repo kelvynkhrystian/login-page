@@ -123,7 +123,6 @@ button:hover {
   main {
     background-image: url('/img/login.gif');
     background-size: auto;
-    justify-content: center;
     height: 90%;
     width: 90%;
   }
@@ -133,8 +132,9 @@ button:hover {
   }
 
   form {
-    opacity: 0.9;
     height: 60%;
+    justify-content: center;
+    opacity: 0.9;
     width: 80%;
   }
 }
