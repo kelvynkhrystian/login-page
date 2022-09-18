@@ -34,7 +34,7 @@ section {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   padding: 20px;
   text-align: center;
   width: 50%;
@@ -105,3 +105,13 @@ button:hover {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+#loader {
+  width: 100px;
+}
+
+/* 
+#voltar {
+  transform: scaleX(-1);
+  width: 25px;
+} */
