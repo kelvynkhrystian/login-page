@@ -138,5 +138,14 @@ button:hover {
     opacity: 0.9;
     width: 80%;
   }
+
+  .second-page {
+    display: flex;
+  }
+
+  #loader {
+    border-radius: 50%;
+    opacity: 0.9;
+  }
 }
 
